@@ -1,22 +1,33 @@
 body {
-	background-color: hotpink;
+	background-color: #ef1f75;
 	color: white;
 	text-align: center;
 	font: arial;
-	max-width: 90%;
+	max-width: 75%;
 	margin: 0 auto;
 }
 
 #input {
 	background-color: white;
-	color: hotpink;
+	color: #ef1f75;
 }
 
 img {
-	width: 450px;
-	height: 305px;
+	max-width: 50%;
+
 }
 
 .person {
-	border: 1px solid white;
+	border: 5px solid white;
+	background-color: #ff75ae;
+	padding: 25px;
+	margin: 10px;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+#nameTitle {
+	font-size: 1.25em;
 }

@@ -57,9 +57,10 @@ for ( var i = 0; i < famousPeople.length; i++) {
 	document.getElementById("famous").innerHTML += 
 		`<div class="person" id="${i}">
 			<header id="nameTitle">${famousPeople[i].name} | ${famousPeople[i].title}</header><br>
-			<img src = "${famousPeople[i].image}"/><br>
-			<section id="${i}" class="imageBio-${i}">${famousPeople[i].bio}</section><br>Life Span:
-			<footer id="lifespan">${famousPeople[i].lifespan.birth} to ${famousPeople[i].lifespan.death}</footer><br>`
+			<section id="imageBio">
+			<img src="${famousPeople[i].image}"/><br>
+			${famousPeople[i].bio}</section><br>
+			<footer id="lifeSpan">Life Span:<br>${famousPeople[i].lifespan.birth} - ${famousPeople[i].lifespan.death}</footer><br>`
 }
 
 //Clear input field after pressing enter
