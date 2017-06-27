@@ -1,0 +1,22 @@
+body {
+	background-color: hotpink;
+	color: white;
+	text-align: center;
+	font: arial;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+#input {
+	background-color: white;
+	color: hotpink;
+}
+
+img {
+	width: 450px;
+	height: 305px;
+}
+
+.person {
+	border: 1px solid white;
+}
